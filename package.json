@@ -1,12 +1,13 @@
 {
   "name": "vitepress-plugin-back-to-top",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/vite-plugin-back-to-top.umd.cjs",
-  "module": "./dist/vite-plugin-back-to-top.js",
+  "main": "./dist/vitepress-plugin-back-to-top.umd.cjs",
+  "module": "./dist/vitepress-plugin-back-to-top.js",
   "types": "./dist/main.d.ts",
   "license": "MIT",
+  "author": "wehuss",
   "homepage": "https://github.com/wehuss/vitepress-plugin-back-to-top",
 
   "scripts": {

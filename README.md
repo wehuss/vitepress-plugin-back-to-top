@@ -33,3 +33,7 @@ export default {
 
 
 ```
+
+# Preview Gif
+
+![preview](https://github.com/wehuss/vitepress-plugin-back-to-top/raw/master/vitepress-plugin-back-to-top-preview.gif)
