@@ -7,6 +7,7 @@
   "module": "./dist/vite-plugin-back-to-top.js",
   "types": "./dist/main.d.ts",
   "license": "MIT",
+  "homepage": "https://github.com/wehuss/vitepress-plugin-back-to-top",
 
   "scripts": {
     "dev": "vite",

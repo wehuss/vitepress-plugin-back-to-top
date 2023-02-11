@@ -9,7 +9,7 @@ export default defineConfig({
     lib:{
       entry:resolve(__dirname,'lib/main.ts'),
       name:'VitepressPluginBackToTop',
-      fileName:'vite-plugin-back-to-top'
+      fileName:'vitepress-plugin-back-to-top'
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
