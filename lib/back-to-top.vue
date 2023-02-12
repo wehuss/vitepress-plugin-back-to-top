@@ -34,7 +34,6 @@
   const show = computed(() => scrollTop.value > props.threshold)
 
   onMounted(() => {
-    console.log('props.threshold', props.threshold)
     scrollTop.value = getScrollTop()
     window.addEventListener(
       'scroll',

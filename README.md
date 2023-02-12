@@ -18,13 +18,13 @@ yarn add vitepress-plugin-back-to-top
 ```js
 // .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
-import vitepressPluginBackToTop from 'vitepress-plugin-back-to-top'
+import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import 'vitepress-plugin-back-to-top/dist/style.css'
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
-    vitepressPluginBackToTop({
+    vitepressBackToTop({
       // default
       threshold:300
     })
